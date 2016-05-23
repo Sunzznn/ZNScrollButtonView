@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "ZNButtonScrollView.h"
 
 @interface ViewController ()
+
+@property (nonatomic,strong) ZNButtonScrollView * znScrollView;
 
 @end
 
@@ -16,12 +19,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.znScrollView = [[ZNButtonScrollView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 30)];
+    self.znScrollView.backgroundColor = [UIColor yellowColor];
+    
+    [self.view addSubview:self.znScrollView];
+    
+    
+    self.znScrollView.buttonWidth = 100;
+    self.znScrollView.buttonTitleColor = [UIColor greenColor];
+    self.znScrollView.buttonSelectedColor = [UIColor purpleColor];
+    self.znScrollView.buttonNamesArray = @[@"1",@"2",@"3",@"3.5",@"4",@"5",@"6",@"7",@"8"];
+    
+    //buttonsArray是封装好的scrollView里面根据传进来的名字创建好的button
+    NSLog(@"%@",self.znScrollView.buttonsArray);
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

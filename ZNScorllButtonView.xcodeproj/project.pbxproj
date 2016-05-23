@@ -15,6 +15,7 @@
 		0E8F5C141CF2E58200A18C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8F5C121CF2E58200A18C24 /* LaunchScreen.storyboard */; };
 		0E8F5C1F1CF2E58200A18C24 /* ZNScorllButtonViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F5C1E1CF2E58200A18C24 /* ZNScorllButtonViewTests.m */; };
 		0E8F5C2A1CF2E58200A18C24 /* ZNScorllButtonViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F5C291CF2E58200A18C24 /* ZNScorllButtonViewUITests.m */; };
+		0E8F5C3C1CF2E63200A18C24 /* ZNButtonScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8F5C3B1CF2E63200A18C24 /* ZNButtonScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0E8F5C251CF2E58200A18C24 /* ZNScorllButtonViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZNScorllButtonViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E8F5C291CF2E58200A18C24 /* ZNScorllButtonViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZNScorllButtonViewUITests.m; sourceTree = "<group>"; };
 		0E8F5C2B1CF2E58200A18C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E8F5C3A1CF2E63200A18C24 /* ZNButtonScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNButtonScrollView.h; sourceTree = "<group>"; };
+		0E8F5C3B1CF2E63200A18C24 /* ZNButtonScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNButtonScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				0E8F5C081CF2E58200A18C24 /* AppDelegate.m */,
 				0E8F5C0A1CF2E58200A18C24 /* ViewController.h */,
 				0E8F5C0B1CF2E58200A18C24 /* ViewController.m */,
+				0E8F5C3A1CF2E63200A18C24 /* ZNButtonScrollView.h */,
+				0E8F5C3B1CF2E63200A18C24 /* ZNButtonScrollView.m */,
 				0E8F5C0D1CF2E58200A18C24 /* Main.storyboard */,
 				0E8F5C101CF2E58200A18C24 /* Assets.xcassets */,
 				0E8F5C121CF2E58200A18C24 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E8F5C0C1CF2E58200A18C24 /* ViewController.m in Sources */,
+				0E8F5C3C1CF2E63200A18C24 /* ZNButtonScrollView.m in Sources */,
 				0E8F5C091CF2E58200A18C24 /* AppDelegate.m in Sources */,
 				0E8F5C061CF2E58200A18C24 /* main.m in Sources */,
 			);
