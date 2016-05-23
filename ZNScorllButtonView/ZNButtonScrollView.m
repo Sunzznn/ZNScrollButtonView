@@ -22,6 +22,8 @@
 
 - (void)setButtonNamesArray:(NSArray *)buttonNamesArray
 {
+    [self.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
+    
     //没有东西就什么都不用做
     if (buttonNamesArray.count == 0) {
         return;
